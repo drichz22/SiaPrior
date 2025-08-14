@@ -1,0 +1,46 @@
+# Front-end (Next.js)
+# dependencies
+/front-end/siaprior-front-end/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/front-end/siaprior-front-end/.next/
+/front-end/siaprior-front-end/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+/front-end/siaprior-front-end/next-env.d.ts
+
+# Backend (FastAPI)
+/back-end/venv
+/back-end/__pycache__/
+/back-end/*.pyc
+/back-end/.env
