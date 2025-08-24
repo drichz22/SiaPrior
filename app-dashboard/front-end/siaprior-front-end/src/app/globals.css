@@ -298,7 +298,6 @@ body {
 .sidebar {
   width: 240px;
   background: #fff;
-  /* light sidebar background */
   border-right: 1px solid #e5e7eb;
   padding: 24px 16px;
   display: flex;
@@ -325,7 +324,6 @@ body {
   padding: 10px 14px;
   border-radius: 12px;
   color: #374151;
-  /* default icon + text color (dark gray) */
   font-weight: 600;
   text-decoration: none;
   transition: background 0.2s, color 0.2s;
@@ -335,7 +333,6 @@ body {
   width: 22px;
   height: 22px;
   color: #374151;
-  /* force icons to be visible */
   flex-shrink: 0;
 }
 
@@ -515,15 +512,12 @@ body {
 
 .prediksi-title {
   font-size: 1.5rem;
-  /* text-2xl */
   font-weight: 700;
-  /* font-bold */
   margin-bottom: 0.25rem;
 }
 
 .prediksi-subtitle {
   color: #4b5563;
-  /* text-gray-600 */
   margin-bottom: 1.5rem;
 }
 
